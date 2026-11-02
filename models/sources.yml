@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: hari_src
+    database: hari_dbt_training
+    schema: raw_sc
+    tables:
+      - name: country
+      - name: emp
+      - name: emp_alias
+      - name: hari_dbt_query_tag
+      - name: my_first_dbt_model
+      - name: remove_alph_num_char
+      - name: zip_code
